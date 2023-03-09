@@ -27,3 +27,19 @@ Brainfuck works like a memory tape, with 30000 cells with the value of 0. Manipu
 	Data pointer
 
  - Each cell holds one byte 
+
+## Resources
+
+ - [Esolangs.org - Brainfuck](https://esolangs.org/wiki/Brainfuck)
+ - [Online Brainfuck Compiler](https://www.tutorialspoint.com/execute_brainfk_online.php)
+
+---
+
+## Challenges
+
+### String repeat
+
+`string_repeat.bf` 
+
+ - [Codewars Kata](https://www.codewars.com/kata/57a0e5c372292dd76d000d7e/bf)
+
