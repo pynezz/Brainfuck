@@ -20,7 +20,10 @@ The eight language commands each consist of a single character:
  | `]` | If the byte at the data pointer is nonzero, then instead of moving the instruction pointer forward to the next command, jump it back to the command after the matching `[` command. | 
 
 ## Turing machine
+Brainfuck works like a memory tape, with 30000 cells with the value of 0. Manipulating the values is how you create programs.
 
-	\[0\]\[1\]\[2\]\[3\] ...
+	[0][1][2][3] ... [30000]
 	-^-------------
 	Data pointer
+
+ - Each cell holds one byte 
