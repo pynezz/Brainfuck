@@ -1,3 +1,11 @@
+Write a function that accepts an integer n and a string s as parameters and returns a string of s repeated exactly n times
+
+Output should be like this
+vvvvvvvvvvvvvvvvvvvvvvvv
+6 I     → IIIIII
+2 Hello → HelloHello
+^^^^^^^^^^^^^^^^^^^^^^^^
+
 ,       ; read number of repetitions n
 >       ; Add a 0 before the starting point to know our bounds
 >,[>,]  ; read string until the terminating zero byte
